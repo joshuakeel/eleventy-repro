@@ -1,0 +1,16 @@
+---
+title: Books
+---
+Books I've read
+
+<ol>
+{%- for book in books -%}
+    <li>{{ book.title }}</li>
+{%- endfor -%}
+</ol>
+
+<ol>
+{%- for book in globalBooks -%}
+    <li>{{ book.title }}</li>
+{%- endfor -%}
+</ol>
